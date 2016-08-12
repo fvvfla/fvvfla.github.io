@@ -1,0 +1,66 @@
+/*-- раздел header --*/
+.header header {
+	background: #F4EFEF;
+	width: 100%;
+	height: 90px;
+	border: 4px solid green;
+	font: normal 32px Geneva, Arial, 'Times New Roman';
+	text-align: center;
+	color: green;
+}
+/*-- раздел nav --*/
+ul.nav {
+	margin-left: 5%; 
+	padding-left: 0px;
+	list-style: none;		
+	border-bottom: 1px, dashed #000;
+}
+.nav li {
+	display: inline;
+	}
+.nav a {
+	display: inline-block;
+	border: 1px, dashed #000;		
+	border-bottom: none;
+	padding: 5px 15px 5px 15px;
+	background-color: #b1e0c7;		
+	text-decoration: none;
+	color: #333;
+}
+/*-- раздел article --*/
+.article article {
+	margin-left: 5%;
+	width: 70%;
+}
+.article h1 {
+	background: #febbbb;
+	color: black;
+	font: bold 16px Geneva, Arial, 'Times New Roman';
+	text-align: center;
+}
+.article h2 {
+	font: bold italic 16px Geneva, Arial, 'Times New Roman';
+	text-align: center;
+	color: red;
+}
+.article h3 {
+	font: italic 16px Geneva, Arial, 'Times New Roman';
+	text-align: center;
+	color: #ff670f;
+}
+.article p {
+	color: black;
+	font: normal 14px Geneva, Arial, 'Times New Roman';
+	text-align: left;
+}
+/*-- раздел footer --*/
+.footer footer {
+	background: #c9de96;
+	width: 100%;
+	height: 25px;
+	border: 4px solid green;
+	font: normal 14px Geneva, Arial, 'Times New Roman';
+	text-align: center;
+	padding: 5px 0px 5px 0px;
+	color: green;
+}
